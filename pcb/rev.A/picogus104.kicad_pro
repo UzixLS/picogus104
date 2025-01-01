@@ -59,7 +59,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|148725000|70780000|5b14d1fc-b407-4ea6-8217-23048f088844|470b0095-a7ed-4f94-913f-1f5e88e1722e",
+        "courtyards_overlap|150825000|70780000|2a53f742-013f-482f-abf4-aef58cef2dbe|1f592421-bd2d-49c8-a49c-16474a4adbb8",
+        "courtyards_overlap|165465000|68735000|6ff80c5e-96eb-4d57-802b-3f9b05a53a7d|f5df4274-6341-413e-9bf7-75e7e37db92d",
+        "footprint_type_mismatch|131850000|103712500|7a07adaf-49bb-4a69-9217-e55b421653b7|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|142400000|137650000|a38ad645-c2ca-4d90-8b73-8939fa47d350|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|154600000|59840000|530a9a9f-aeda-452b-b0f1-527d08f74579|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -70,7 +77,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -78,7 +85,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
@@ -129,7 +136,7 @@
         "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 0,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -185,6 +192,7 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.2,
         0.25,
         0.4,
@@ -246,7 +254,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|279400|495300|4bc4b0e2-a9e8-4744-be6a-7915aae94cdd|236facff-24d0-4229-91dc-bf50007fbe0d|/8fb4b197-630e-4faa-9892-8ecaeb71c13b/3b0cfe91-8f00-4390-ba1a-37eabcef63ce|/8fb4b197-630e-4faa-9892-8ecaeb71c13b/3b0cfe91-8f00-4390-ba1a-37eabcef63ce|/8fb4b197-630e-4faa-9892-8ecaeb71c13b/3b0cfe91-8f00-4390-ba1a-37eabcef63ce"
+    ],
     "meta": {
       "version": 0
     },
@@ -288,7 +298,7 @@
         0,
         1,
         0,
-        1,
+        0,
         0,
         1,
         2
@@ -366,7 +376,7 @@
       [
         0,
         2,
-        1,
+        0,
         2,
         0,
         0,
