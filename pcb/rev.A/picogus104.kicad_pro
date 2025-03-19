@@ -60,8 +60,8 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|148725000|70780000|5b14d1fc-b407-4ea6-8217-23048f088844|470b0095-a7ed-4f94-913f-1f5e88e1722e",
-        "courtyards_overlap|150825000|70780000|2a53f742-013f-482f-abf4-aef58cef2dbe|1f592421-bd2d-49c8-a49c-16474a4adbb8",
+        "courtyards_overlap|148725000|70780000|470b0095-a7ed-4f94-913f-1f5e88e1722e|5b14d1fc-b407-4ea6-8217-23048f088844",
+        "courtyards_overlap|150825000|70780000|1f592421-bd2d-49c8-a49c-16474a4adbb8|2a53f742-013f-482f-abf4-aef58cef2dbe",
         "courtyards_overlap|165465000|68735000|6ff80c5e-96eb-4d57-802b-3f9b05a53a7d|f5df4274-6341-413e-9bf7-75e7e37db92d",
         "footprint_type_mismatch|131850000|103712500|7a07adaf-49bb-4a69-9217-e55b421653b7|00000000-0000-0000-0000-000000000000",
         "footprint_type_mismatch|142400000|137650000|a38ad645-c2ca-4d90-8b73-8939fa47d350|00000000-0000-0000-0000-000000000000",
@@ -255,7 +255,8 @@
   },
   "erc": {
     "erc_exclusions": [
-      "multiple_net_names|279400|495300|4bc4b0e2-a9e8-4744-be6a-7915aae94cdd|236facff-24d0-4229-91dc-bf50007fbe0d|/8fb4b197-630e-4faa-9892-8ecaeb71c13b/3b0cfe91-8f00-4390-ba1a-37eabcef63ce|/8fb4b197-630e-4faa-9892-8ecaeb71c13b/3b0cfe91-8f00-4390-ba1a-37eabcef63ce|/8fb4b197-630e-4faa-9892-8ecaeb71c13b/3b0cfe91-8f00-4390-ba1a-37eabcef63ce"
+      "multiple_net_names|279400|495300|4bc4b0e2-a9e8-4744-be6a-7915aae94cdd|236facff-24d0-4229-91dc-bf50007fbe0d|/8fb4b197-630e-4faa-9892-8ecaeb71c13b/3b0cfe91-8f00-4390-ba1a-37eabcef63ce|/8fb4b197-630e-4faa-9892-8ecaeb71c13b/3b0cfe91-8f00-4390-ba1a-37eabcef63ce|/8fb4b197-630e-4faa-9892-8ecaeb71c13b/3b0cfe91-8f00-4390-ba1a-37eabcef63ce",
+      "multiple_net_names|3606800|2159000|545a7377-6496-44b1-b39f-deb22ec15f98|a0671265-85b3-4595-bfa3-dda4a22c968f|/8fb4b197-630e-4faa-9892-8ecaeb71c13b|/8fb4b197-630e-4faa-9892-8ecaeb71c13b|/8fb4b197-630e-4faa-9892-8ecaeb71c13b"
     ],
     "meta": {
       "version": 0
@@ -642,7 +643,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
+      "model_mode": 4,
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
