@@ -21011,7 +21011,7 @@
 				)
 			)
 		)
-		(property "Value" "30p"
+		(property "Value" "30pF"
 			(at 288.29 87.63 0)
 			(effects
 				(font
@@ -21930,7 +21930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 356.87 135.89 0)
 			(effects
 				(font
@@ -22044,7 +22044,7 @@
 		(at 332.74 218.44 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "3179f425-c178-4eaa-813a-74f4b1c94dfd")
@@ -22267,7 +22267,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 273.05 57.15 0)
 			(effects
 				(font
@@ -23934,7 +23934,7 @@
 				)
 			)
 		)
-		(property "Value" "30p"
+		(property "Value" "30pF"
 			(at 278.13 87.63 0)
 			(effects
 				(font
@@ -23989,7 +23989,7 @@
 		(at 332.74 199.39 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "5af404a1-e9a9-4a50-91fd-6231c165a9a6")
@@ -24598,7 +24598,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "62ba5ace-cd46-4187-9bc9-a46a4c22a44f")
@@ -28243,7 +28243,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 271.78 87.63 0)
 			(effects
 				(font
@@ -29922,7 +29922,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "ac14b1f3-5b99-454d-975b-81e79d57f897")
@@ -30977,7 +30977,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 390.271 222.123 0)
 			(effects
 				(font
@@ -32460,7 +32460,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 363.601 222.123 0)
 			(effects
 				(font
